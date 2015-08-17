@@ -1,0 +1,11 @@
+匹配包含值
+
+	E[attr*="value"]属性选择器表示的是选择attr属性值中包含子串"value"的所有元素。 
+	
+也就是说，只要你所选择的属性，其属性值中有这个"value"值都将被选中。
+
+如下，我们设置a标签href的属性值的背景色：
+
+	.wrap a[title*="hubwiz"]{background:black;color:white;}
+	
+上面代码表示的是，选择.demo中元素有title属性并对应属性值包含hubwiz值的a元素。

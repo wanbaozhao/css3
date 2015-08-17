@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>匹配属性值——包含值</title>
+		<style>
+			.wrap a[title*=hubwiz] {
+				background: black;
+				color: white;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<a id="first">1</a>
+			<a href="http://www.hubwiz.com" target="_blank">2</a>
+			<a>3</a>
+			<a href="sites/file/test.png">4</a>
+			<a href="sites/file/image.jpg">5</a>
+			<a href="mailto:service@hubwiz.com">6</a>
+			<a>7</a>
+			<a title="open the hubwiz">8</a>
+			<a>9</a>
+			<a title="close the hubwiz">10</a>
+		</div>
+	</body>
+
+</html>
