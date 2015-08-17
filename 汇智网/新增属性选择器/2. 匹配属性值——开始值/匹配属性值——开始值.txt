@@ -1,0 +1,13 @@
+匹配开始值
+
+	E[attr^="value"]属性选择器，指的是选择attr属性值以“value”开头的所有元素，也就是说，
+	
+所选择的属性其对应的属性值是以“value”开始的。
+
+	如下，我们设置a标签的href属性值的背景色：
+
+	.wrap a[href^="http://"]{background:orange;color:blue;}
+ 
+	.wrap a[href^="mailto:"]{background:blue;color:orange;}
+	
+上面代码选择了a标签的href属性，并且选取属性值为"http://"和"mailto:"开头的所有a标签，改变其颜色。
